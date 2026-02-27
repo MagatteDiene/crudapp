@@ -1,0 +1,1 @@
+[![PHP Lint & Syntax Check](https://github.com/MagatteDiene/crudapp/actions/workflows/tests.yml/badge.svg)](https://github.com/MagatteDiene/crudapp/actions/workflows/tests.yml)
