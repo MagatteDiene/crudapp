@@ -26,7 +26,7 @@ class UserController
 
         // Support de _method override pour DELETE et PUT via POST
         if ($method === 'POST' && isset($this->requestData['_method'])) {
-            $method = strtoupper($this->requestData['_method'])
+            $method = strtoupper($this->requestData['_method']);
         }
 
         switch ($method) {
