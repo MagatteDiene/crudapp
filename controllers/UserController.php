@@ -101,7 +101,7 @@ class UserController
 
         // Validation
         if (empty($data['id']) || empty($data['nom']) || empty($data['prenom']) || empty($data['login'])) {
-            http_response_code(400);
+            http_response_code(400)
             echo json_encode(['success' => false, 'error' => 'Les champs id, nom, prenom et login sont obligatoires.']);
             return;
         }
